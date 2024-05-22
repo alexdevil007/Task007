@@ -1,0 +1,107 @@
+.container2{
+    background-color: rgb(255, 255, 255);
+    background-position:center;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content:center;
+}
+.top{
+    display: flex;
+}
+/* input section */
+.profile{
+    width: 50%;
+    background-color: rgba(40, 255, 7, 0.4);
+    display: flex;
+    align-items: center;
+    border-radius:10px;
+    color: rgb(0, 0, 0);
+}
+.inputarea{
+    height: 20px;
+    width: 40%;
+}
+.name{
+    width: 50%;
+    text-align: left;
+    padding-left: 40px;
+}
+.inputsec{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content:left;
+    width: 90%;
+}
+.insubmit{
+    width: fit-content;
+    margin-top: 30px;
+}
+.lefttext{
+    text-align: left;
+    width: 50%;
+}
+.left2{
+    padding: 30px;
+    width: 90%;
+}
+.leftbuttons{
+    gap: 10px;
+}
+.contactme{
+    width:fit-content;
+    gap: 10px;
+    margin: 10px;
+    background-color: rgb(234, 234, 234);
+}
+.contactme1{
+    width:fit-content;
+    gap: 10px;
+    margin: 10px;
+    background-color: rgb(0, 167, 61);
+}
+.welcome{
+    color: rgb(0, 141, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+.creative{
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+}
+.intro{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+.green{
+    color: rgb(0, 203, 47);
+}
+
+.textinputbuttom{
+    width: 100%;
+    height:fit-content;
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.bars{
+    width: 30%;
+    height:fit-content;
+    text-align: left;
+    padding-left: 70px;
+    border-right: 2px solid rgb(78, 78, 78);
+}
+.one{
+    color: rgb(0, 195, 62);
+    font-weight: 700;
+    font-size: 20px;
+}
+.onetext{
+    color: rgb(0, 0, 0);
+}

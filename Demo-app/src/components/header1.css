@@ -1,0 +1,39 @@
+header{
+    display: flex;
+    background-color: rgb(113, 113, 113);
+    height:fit-content;
+    color: rgb(255, 255, 255);
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+h1{
+    width: 40%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: 0px;
+}
+ul{
+    display: flex;
+    margin: 0px;
+    align-items: center;
+    list-style-type:none;
+    justify-content: center;
+    text-align: center;
+    padding: 0px;
+}
+li:hover{
+    background-color: rgb(255, 106, 0);
+    width: 100%;
+    
+}
+li{
+    text-decoration: none;
+    cursor: pointer;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}

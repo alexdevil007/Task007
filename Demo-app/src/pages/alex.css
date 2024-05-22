@@ -1,0 +1,106 @@
+.name{
+    width: 300px;
+}
+button{
+    background-color: blue;
+    border-radius:5px;
+    margin: 10px;
+}
+
+.alex{
+    background-color: aliceblue;
+    height:600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow-x:scroll;
+    padding-bottom: 10%;
+}
+.welcome{
+    text-align: center;
+    
+}
+.bus{
+    background-image: url('../assets/img3.png');
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: go 20s infinite;
+    position: relative;
+    animation-direction: reverse;
+    top: 100px;
+}
+.bus2{
+    background-image: url('../assets/img4.png');
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: go2 15s infinite;
+    position: relative;
+    animation-direction: reverse;
+    top: 100px;
+}
+
+.bike{
+    background-image: url('../assets/bike.png');
+    width: 50%;
+    height: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: bike 15s infinite;
+    position:absolute;
+    animation-direction: reverse;
+    top: 240px;
+
+}
+
+
+.image{
+    background-image: url('../assets/img2.png');
+    background-size: cover;
+    background-position: center;
+    width: 700px;
+    position:relative;
+    height: 500px;
+    margin-bottom: 40px;
+    overflow: hidden;
+   
+}
+.button{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    top:80px;
+    left: 31%;
+}
+.button2{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    top:100px;
+    left: 50%;
+    background-color: aqua;
+}
+.button:hover{
+    background-color: rgb(0, 102, 255);
+    box-shadow:10px 20px 70dpx rgb(33, 162, 255);
+}
+@keyframes go {
+    0% { left: -100%;}
+    50%{left: 20%;}
+    55%{left: 19%;}
+    100%{left: 100%;}
+}
+@keyframes go2 {
+    0% { left: -100%;}
+    100%{left: 100%;}
+}
+
+@keyframes bike {
+    0% { left: 100%;}
+    100%{left: -100%;}
+}

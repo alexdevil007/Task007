@@ -1,0 +1,121 @@
+.content{
+    display: flex;
+}
+.side-menu{
+    width: 20%;
+    height:max-content;
+    background-color: rgb(228, 228, 228);
+    color: rgb(60, 60, 61);
+    text-align: center;
+}
+h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:40px;
+}
+h3:hover{
+   background-color: rgb(252, 156, 38);
+   cursor: pointer;
+}
+.container1{
+    background-position:center;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start
+
+}
+.title{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: left;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+}
+.left1{
+    width: 100%;
+    font-size:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+h4{
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    margin: 20px;
+}
+.cards{
+    width: 220px;
+    height: 300px;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid rgb(183, 183, 183);
+    box-shadow: 0px 5px 10px rgb(73, 73, 73);
+}
+.cards:hover{
+    box-shadow: 0px 6px 20px rgb(0, 0, 0);
+}
+.card-image{
+    
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-item{
+    width: 80%;
+    height: 90%;
+    background-image: url('../assets/bg3.jpg');
+    background-position:center;
+    background-size:cover;
+    border-radius: 100%;
+}
+.card-name{
+    width: 100%;
+    height: 12%;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-price{
+    width: 100%;
+    height: 12%;
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(18, 255, 14);
+}
+.card-button{
+    width: 100%;
+    height: 16%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.add{
+    font-size: 15px;
+    width: fit-content;
+    height:fit-content;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 106, 0);
+    color: aliceblue;
+}
+.add:hover{
+    box-shadow: 0px 3px 10px rgb(110, 109, 109);
+    border-color: rgb(24, 243, 0);
+    width: 50%;
+}
